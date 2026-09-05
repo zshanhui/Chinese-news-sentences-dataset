@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Build notebooks/25k-chinese-news-analysis.ipynb from plain-text cells.
+"""Build notebooks/dshv4-sentence-analysis.ipynb from plain-text cells.
 
 Run with the project venv:
     .venv/bin/python build_notebook.py
@@ -7,7 +7,7 @@ Run with the project venv:
 import json
 import os
 
-NB_PATH = "notebooks/25k-chinese-news-analysis.ipynb"
+NB_PATH = "notebooks/dshv4-sentence-analysis.ipynb"
 os.makedirs(os.path.dirname(NB_PATH), exist_ok=True)
 
 # Each entry: ("markdown"|"code", "source")
